@@ -1,0 +1,62 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Two custom themes -->    
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!-- API 1-10 theme customizations go here -->
+    </style>
+    
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- Theme customizations NOT specific to a particular API -->
+
+        <!-- adding to theme -->
+        <item name="android:textAppearance">@style/ModifiedTextAppearance</item>
+        <item name="android:spinnerItemStyle">@style/ModifiedSpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/ModifiedDropdownItem</item>
+
+        <!-- adding colors to theme -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+
+
+    </style>
+    
+    <!-- Five custom styles -->
+    <style name="TextView">
+        <item name="android:textSize">24sp</item>
+    </style>
+    
+    <style name="EditText" parent="@style/TextView" />
+    
+    <style name="Button" parent="@style/TextView">
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="TextView.Label">
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    
+    <style name="TextView.Label.Indent">
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <!-- new styles added -->
+    <style name="PaddedWidget">
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="ModifiedTextAppearance" parent="android:TextAppearance">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="ModifiedSpinnerItem" parent="@android:style/Widget.TextView.SpinnerItem">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="ModifiedDropdownItem" parent="android:style/Widget.DropDownItem">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+</resources>
