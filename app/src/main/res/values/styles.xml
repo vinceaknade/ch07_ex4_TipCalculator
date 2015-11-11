@@ -8,13 +8,17 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- Theme customizations NOT specific to a particular API -->
 
+    </style>
+
+    <style name="ModifiedAppTheme" parent="AppTheme">
+
         <!-- adding styles to theme -->
         <item name="android:textAppearance">@style/ModifiedTextAppearance</item>
         <item name="android:spinnerItemStyle">@style/ModifiedSpinnerItem</item>
         <item name="android:spinnerDropDownItemStyle">@style/ModifiedDropdownItem</item>
 
         <!-- adding colors to theme -->
-        <!-- <item name="android:background">@color/background</item> -->
+        <item name="android:background">@color/background</item>
         <item name="android:windowBackground">@color/background</item>
         <item name="android:textColorPrimary">@color/white</item>
         <item name="android:textColorSecondary">@color/white</item>

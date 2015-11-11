@@ -32,7 +32,7 @@ ADDED from C:\Users\Wayne Beech\AndroidStudioProjects\ch07_ex4_TipCalculator1\ap
 	android:icon
 		ADDED from C:\Users\Wayne Beech\AndroidStudioProjects\ch07_ex4_TipCalculator1\app\src\main\AndroidManifest.xml:11:9-45
 	android:theme
-		ADDED from C:\Users\Wayne Beech\AndroidStudioProjects\ch07_ex4_TipCalculator1\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from C:\Users\Wayne Beech\AndroidStudioProjects\ch07_ex4_TipCalculator1\app\src\main\AndroidManifest.xml:13:9-48
 activity#com.beech.tipcalculator.TipCalculatorActivity
 ADDED from C:\Users\Wayne Beech\AndroidStudioProjects\ch07_ex4_TipCalculator1\app\src\main\AndroidManifest.xml:15:9-23:20
 	android:windowSoftInputMode

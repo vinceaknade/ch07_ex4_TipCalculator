@@ -78,15 +78,18 @@ public final class R {
         /**  API 1-10 theme customizations go here 
          */
         public static final int AppBaseTheme=0x7f040001;
+        /**  Theme customizations NOT specific to a particular API 
+         */
         public static final int AppTheme=0x7f040000;
         public static final int Button=0x7f040002;
         public static final int EditText=0x7f040003;
-        public static final int ModifiedDropdownItem=0x7f040004;
-        public static final int ModifiedSpinnerItem=0x7f040005;
-        public static final int ModifiedTextAppearance=0x7f040006;
-        public static final int PaddedWidget=0x7f040007;
-        public static final int TextView=0x7f040008;
-        public static final int TextView_Label=0x7f040009;
-        public static final int TextView_Label_Indent=0x7f04000a;
+        public static final int ModifiedAppTheme=0x7f040004;
+        public static final int ModifiedDropdownItem=0x7f040005;
+        public static final int ModifiedSpinnerItem=0x7f040006;
+        public static final int ModifiedTextAppearance=0x7f040007;
+        public static final int PaddedWidget=0x7f040008;
+        public static final int TextView=0x7f040009;
+        public static final int TextView_Label=0x7f04000a;
+        public static final int TextView_Label_Indent=0x7f04000b;
     }
 }
