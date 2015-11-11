@@ -1,26 +1,26 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-    
-    <!-- Two custom themes -->    
+
+    <!-- Two custom themes -->
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!-- API 1-10 theme customizations go here -->
     </style>
-    
+
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- Theme customizations NOT specific to a particular API -->
 
-        <!-- adding to theme -->
+        <!-- adding styles to theme -->
         <item name="android:textAppearance">@style/ModifiedTextAppearance</item>
         <item name="android:spinnerItemStyle">@style/ModifiedSpinnerItem</item>
         <item name="android:spinnerDropDownItemStyle">@style/ModifiedDropdownItem</item>
 
         <!-- adding colors to theme -->
+        <!-- <item name="android:background">@color/background</item> -->
         <item name="android:windowBackground">@color/background</item>
         <item name="android:textColorPrimary">@color/white</item>
         <item name="android:textColorSecondary">@color/white</item>
 
-
     </style>
-    
+
     <!-- Five custom styles -->
     <style name="TextView">
         <item name="android:textSize">24sp</item>
@@ -51,11 +51,11 @@
         <item name="android:textSize">24sp</item>
     </style>
 
-    <style name="ModifiedSpinnerItem" parent="@android:style/Widget.TextView.SpinnerItem">
+    <style name="ModifiedSpinnerItem" parent="android:Widget.TextView.SpinnerItem">
         <item name="android:textSize">24sp</item>
     </style>
-
-    <style name="ModifiedDropdownItem" parent="android:style/Widget.DropDownItem">
+<!-- @android:style/Widget.DropDownItem -->
+    <style name="ModifiedDropdownItem" parent="android:Widget.DropDownItem">
         <item name="android:textSize">24sp</item>
     </style>
 
